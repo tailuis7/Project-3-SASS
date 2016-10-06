@@ -1,5 +1,78 @@
 /* BASE - Base styles, variables, mixins, normalize */
+/* Fonts Config  */
+@font-face {
+  font-family: fontDisplay;
+  src: url(../fonts/DroidSans.ttf);
+}
+@font-face {
+  font-family: fontDisplayReg;
+  src: url(../fonts/DroidSans-Bold.ttf);
+}
+/* Font Colors */
+/* Background Colors */
+/* Website's Width */
+/* Normalize CSS */
+#container .container {
+  padding: 0px;
+}
+
+body {
+  font-family: fontDisplay;
+  font-size: 15px;
+  line-height: 1.7em;
+}
+
+#container .container {
+  width: 1015px;
+}
+
 /* MODULES - Individual site components */
 /* LAYOUTS - Page layout styles*/
+/* Header */
+header {
+  background-color: #faffff;
+  padding: 2.02% 0;
+}
+header .brand-icon {
+  float: left;
+  margin-right: 7px;
+}
+header .brand-name {
+  font-size: 34.04px;
+  font-style: italic;
+  font-weight: bold;
+  color: #325f70;
+}
+header .number-contact, header .number-contact a {
+  font-size: 16px;
+  color: #000a52;
+  margin: 0;
+}
+header .number-contact a {
+  font-weight: bold;
+}
+header .user-management {
+  font-size: 14px;
+}
+header .user-management a {
+  text-decoration: underline;
+  color: #666666;
+  margin-right: 10px;
+}
+header .user-management a:last-child {
+  margin-right: 0;
+}
+header .quick-search input {
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+}
+header .quick-search i {
+  position: absolute;
+  top: 4px;
+  right: 25px;
+  font-size: 20px;
+  color: #6397aa;
+}
 
 /*# sourceMappingURL=main.css.map */

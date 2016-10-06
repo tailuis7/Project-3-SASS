@@ -1,0 +1,35 @@
+/* Fonts Config  */
+
+@font-face {
+    font-family:fontDisplay;
+    src: url(../fonts/DroidSans.ttf);
+}
+
+@font-face {
+    font-family:fontDisplayReg;
+    src: url(../fonts/DroidSans-Bold.ttf);
+}
+
+
+/* Font Colors */
+
+$base-font-size:15px;
+$base-primary-font-family:fontDisplay;
+$base-secondary-font-family:fontDisplayReg;
+
+
+
+/* Background Colors */
+
+$primary-color: #000a52;
+$secondary-color: #325f70;
+$third-color: #6397aa;
+$btn-primary-color: #99c873;
+$btn-secondary-color: transparent;
+$section-primary-color: #faffff;
+$section-secondary-color: #e9f4ff;
+
+
+/* Website's Width */
+
+$base-site-width: 1015px;

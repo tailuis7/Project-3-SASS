@@ -1,0 +1,11 @@
+body{
+	font-family:$base-primary-font-family;
+	font-size:$base-font-size;
+	line-height:1.7em;
+}
+
+#container {
+    .container {
+        width: $base-site-width;
+    }
+}

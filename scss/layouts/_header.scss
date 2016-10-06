@@ -1,0 +1,50 @@
+/* Header */
+
+header {
+    background-color: $section-primary-color;
+    padding: 2.02% 0;
+    .brand-icon {
+        float: left;
+        margin-right: 7px;
+    }
+    .brand-name {
+        font-size: 34.04px;
+        font-style: italic;
+        font-weight: bold;
+        color: $secondary-color;
+    }
+    .number-contact {
+        font-size: 16px;
+        color: $primary-color;
+        margin: 0;
+        a {
+            @extend .number-contact;
+            font-weight: bold;
+        }
+    }
+    .user-management {
+        font-size: 14px;
+        a {
+            text-decoration: underline;
+            color: #666666;
+            margin-right: 10px;
+        }
+        a:last-child {
+            margin-right: 0;
+        }
+    }
+    .quick-search {
+        input {
+            width: 100%;
+            position: relative;
+            font-size: 14px;
+        }
+        i {
+            position: absolute;
+            top: 4px;
+            right: 25px;
+            font-size: 20px;
+            color: $third-color;
+        }
+    }
+}
