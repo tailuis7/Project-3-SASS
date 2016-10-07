@@ -5,7 +5,7 @@
   src: url(../fonts/DroidSans.ttf);
 }
 @font-face {
-  font-family: fontDisplayReg;
+  font-family: fontDisplayBold;
   src: url(../fonts/DroidSans-Bold.ttf);
 }
 /* Font Colors */
@@ -24,6 +24,41 @@ body {
 
 /* MODULES - Individual site components */
 /* LAYOUTS - Page layout styles*/
+/* Menu */
+.navbar-default {
+  background-color: #000a52;
+  border-radius: 0;
+  border: none;
+  background-image: none;
+  font-size: 14px;
+}
+.navbar-default .navbar-collapse {
+  padding: 5px 0;
+}
+.navbar-default .navbar-collapse .navbar-nav > li {
+  margin-right: 15px;
+}
+.navbar-default .navbar-collapse .nav > li > a {
+  padding: 10px 0;
+  color: #ffffff;
+}
+.navbar-default .navbar-collapse .nav > li > a:hover {
+  font-family: fontDisplayBold;
+}
+.navbar-default .navbar-collapse .nav .open > a,
+.navbar-default .navbar-collapse .nav .open > a:hover,
+.navbar-default .navbar-collapse .nav .open > a:focus {
+  background-color: transparent !important;
+  border: none;
+  background-image: none !important;
+  font-family: fontDisplayBold;
+  color: #ffffff;
+}
+.navbar-default .navbar-collapse .nav .open > a:hover,
+.navbar-default .navbar-collapse .nav .open > a:focus li {
+  border-bottom: 3px solid white;
+}
+
 /* Header */
 header {
   background-color: #faffff;
@@ -38,7 +73,7 @@ header .container .brand-icon {
   margin-top: 15px;
 }
 header .container .brand-name {
-  font-family: fontDisplayReg;
+  font-family: fontDisplayBold;
   font-size: 34.04px;
   font-style: italic;
   font-weight: bold;
