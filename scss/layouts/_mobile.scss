@@ -1,0 +1,103 @@
+/* Responsive Fix */
+
+
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+    /***
+     * Fix container width
+     */
+    #container {
+        .container {
+            width: auto;
+        }
+    }
+}
+
+
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /***
+     * Fix container width
+     */
+    #container {
+        .container {
+            width: auto;
+        }
+    }
+}
+
+
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /***
+     * Fix container width
+     */
+    #container {
+        .container {
+            width: auto;
+        }
+    }
+    /***
+     * Fix float header
+     */
+    header {
+        .container {
+            .number-contact {
+                float: none;
+            }
+            .user-management {
+                float: none;
+            }
+            .quick-search {
+                input {
+                    margin: 0;
+                }
+                i {
+                    top: 8px;
+                }
+            }
+        }
+    }
+}
+
+
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+    /***
+     * Fix container width
+     */
+    #container {
+        .container {
+            width: auto;
+        }
+    }
+    /***
+     * Fix float header
+     */
+    header {
+        .container {
+            .number-contact {
+                float: none;
+            }
+            .user-management {
+                float: none;
+            }
+            .quick-search {
+                input {
+                    margin: 0;
+                }
+                i {
+                    top: 8px;
+                }
+            }
+        }
+    }
+}

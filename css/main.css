@@ -12,18 +12,14 @@
 /* Background Colors */
 /* Website's Width */
 /* Normalize CSS */
-#container .container {
-  padding: 0px;
-}
-
 body {
   font-family: fontDisplay;
   font-size: 15px;
-  line-height: 1.7em;
+  /*line-height:1.7em;*/
 }
 
 #container .container {
-  width: 1015px;
+  width: 1045px;
 }
 
 /* MODULES - Individual site components */
@@ -33,46 +29,134 @@ header {
   background-color: #faffff;
   padding: 2.02% 0;
 }
-header .brand-icon {
+header .container {
+  margin-top: 5px;
+}
+header .container .brand-icon {
   float: left;
   margin-right: 7px;
+  margin-top: 15px;
 }
-header .brand-name {
+header .container .brand-name {
+  font-family: fontDisplayReg;
   font-size: 34.04px;
   font-style: italic;
   font-weight: bold;
+  letter-spacing: -3px;
   color: #325f70;
 }
-header .number-contact, header .number-contact a {
+header .container .number-contact, header .container .number-contact a {
   font-size: 16px;
   color: #000a52;
   margin: 0;
+  margin-top: 4px;
+  float: right;
 }
-header .number-contact a {
+header .container .number-contact a {
   font-weight: bold;
+  float: none;
 }
-header .user-management {
+header .container .user-management {
   font-size: 14px;
+  float: right;
 }
-header .user-management a {
+header .container .user-management a {
   text-decoration: underline;
   color: #666666;
   margin-right: 10px;
 }
-header .user-management a:last-child {
+header .container .user-management a:last-child {
   margin-right: 0;
 }
-header .quick-search input {
+header .container .quick-search input {
   width: 100%;
+  height: 38px;
+  margin-top: 5px;
+  margin-left: 5px;
   position: relative;
   font-size: 14px;
+  border: 1px solid #84adbc;
 }
-header .quick-search i {
+header .container .quick-search i {
   position: absolute;
-  top: 4px;
+  top: 12px;
   right: 25px;
   font-size: 20px;
   color: #6397aa;
+}
+
+/* Responsive Fix */
+/* #Tablet (Landscape) 1024px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+  /***
+   * Fix container width
+   */
+  #container .container {
+    width: auto;
+  }
+}
+/* #Tablet (Portrait) 768px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /***
+   * Fix container width
+   */
+  #container .container {
+    width: auto;
+  }
+}
+/* #Mobile (Landscape) 480px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /***
+   * Fix container width
+   */
+  #container .container {
+    width: auto;
+  }
+
+  /***
+   * Fix float header
+   */
+  header .container .number-contact, header .container .number-contact a {
+    float: none;
+  }
+  header .container .user-management {
+    float: none;
+  }
+  header .container .quick-search input {
+    margin: 0;
+  }
+  header .container .quick-search i {
+    top: 8px;
+  }
+}
+/*  #Mobile (Portrait) 320px
+---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  /***
+   * Fix container width
+   */
+  #container .container {
+    width: auto;
+  }
+
+  /***
+   * Fix float header
+   */
+  header .container .number-contact, header .container .number-contact a {
+    float: none;
+  }
+  header .container .user-management {
+    float: none;
+  }
+  header .container .quick-search input {
+    margin: 0;
+  }
+  header .container .quick-search i {
+    top: 8px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
