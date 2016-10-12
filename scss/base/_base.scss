@@ -6,6 +6,6 @@ body{
 
 #container {
     .container {
-        width: $base-site-width;
+        max-width: $base-site-width;
     }
 }

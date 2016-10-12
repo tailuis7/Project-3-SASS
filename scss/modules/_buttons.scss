@@ -1,0 +1,22 @@
+/* Buttons */
+
+%custom-button {
+    background-image: none;
+    border-radius: 0;
+    &:hover {
+        background-color: $third-color;
+        color: #ffffff;
+    }
+}
+
+%primary-button {
+    @extend %custom-button;
+    color: #ffffff;
+    background-color: $btn-primary-color;
+}
+
+%secondary-button {
+    @extend %custom-button;
+    color: $btn-primary-color;
+    background-color: $btn-secondary-color;
+}
