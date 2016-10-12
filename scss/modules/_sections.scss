@@ -97,8 +97,8 @@ section {}
         margin: 0;
         .product {
             padding: 0;
-            margin-bottom: 75px;
             margin-right: 30px;
+            margin-bottom: -45px;
             max-width: 230px;
             img {
                 &:first-child {
@@ -106,66 +106,62 @@ section {}
                 }
             }
             .main-background {
-                position: absolute;
-                bottom: 10px;
+                position: relative;
+                bottom: 80px;
                 left: 1px;
                 font-size: 70px;
-                color: #424242;
                 opacity: 0.5;
                 color: $product-sale-main;
             }
             .product-sale {
                 position: relative;
+                bottom: 130px;
                 p {
                     color: #ffffff;
+                    position: relative;
                 }
                 .promotion-price-background {
-                    position: absolute;
-                    bottom: 8px;
+                    bottom: -98px;
                     left: -98px;
                     font-size: 50px;
                     color: $product-sale-promotion-price;
                     .price {
                         font-size: 14.83px;
-                        position: absolute;
-                        bottom: 14px;
-                        left: 99px;
+                        bottom: 38px;
+                        left: 0px;
                         z-index: 9;
                     }
                     .currency {
                         font-size: 12.98px;
-                        position: absolute;
-                        bottom: 1px;
-                        left: 103px;
+                        bottom: 48px;
+                        left: 0px;
                         z-index: 9;
                     }
                 }
                 .shipping-background {
-                    position: absolute;
-                    bottom: 8px;
+                    bottom: -95px;
                     left: -58px;
                     font-size: 50px;
                     color: $product-sale-shipping;
                     p {
-                        position: absolute;
                         &:first-child {
                             font-family: $base-secondary-font-family;
                             font-size: 14.83px;
-                            bottom: 14px;
-                            left: 98px;
+                            bottom: 37px;
+                            left: 0px;
                         }
                         &:last-child {
                             font-size: 9px;
-                            bottom: 4px;
-                            left: 95px;
+                            bottom: 48px;
+                            left: 0px;
                         }
                     }
                 }
             }
             .product-information {
-                position: absolute;
+                position: relative;
+                top: -65px;
                 font-size: 14px;
-                margin-top: 12px;
                 .product-name {
                     color: $base-product-name;
                     letter-spacing: -0.9px;
