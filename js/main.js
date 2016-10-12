@@ -21,4 +21,9 @@ $(document).ready(function() {
     $(".dropdown-menu").mouseout(function() {
         $(this).css({ "display": "none" }, "slow");
     });
+
+    var maxHeight = $(".special-offer").height();
+    $(".adv-content").height(maxHeight);
+    $(".adv-content span").css("line-height", maxHeight + "px");
+
 });

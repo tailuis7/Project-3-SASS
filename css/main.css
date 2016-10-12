@@ -24,21 +24,22 @@ body {
 
 /* MODULES - Individual site components */
 /* Buttons */
-.section-slider .carousel-caption > .btn, .section-main-content .more-products-container .btn, .section-slider .carousel-caption > .btn ~ .btn {
+.section-slider .carousel-caption > .btn, .section-main-content .more-products-container .btn, .section-special-offer-adv .special-offer .border .product-info > .btn ~ .btn, .section-special-offer-adv .advertisement .border .product-info > .btn ~ .btn, .section-slider .carousel-caption > .btn ~ .btn, .section-special-offer-adv .special-offer .border .product-info > .btn, .section-special-offer-adv .advertisement .border .product-info > .btn {
+  font-family: fontDisplay;
   background-image: none;
   border-radius: 0;
 }
-.section-slider .carousel-caption > .btn:hover, .section-main-content .more-products-container .btn:hover, .section-slider .carousel-caption > .btn ~ .btn:hover {
+.section-slider .carousel-caption > .btn:hover, .section-main-content .more-products-container .btn:hover, .section-special-offer-adv .special-offer .border .product-info > .btn ~ .btn:hover, .section-special-offer-adv .advertisement .border .product-info > .btn ~ .btn:hover, .section-slider .carousel-caption > .btn ~ .btn:hover, .section-special-offer-adv .special-offer .border .product-info > .btn:hover, .section-special-offer-adv .advertisement .border .product-info > .btn:hover {
   background-color: #6397aa;
   color: #ffffff;
 }
 
-.section-slider .carousel-caption > .btn, .section-main-content .more-products-container .btn {
+.section-slider .carousel-caption > .btn, .section-main-content .more-products-container .btn, .section-special-offer-adv .special-offer .border .product-info > .btn ~ .btn, .section-special-offer-adv .advertisement .border .product-info > .btn ~ .btn {
   color: #ffffff;
   background-color: #99c873;
 }
 
-.section-slider .carousel-caption > .btn ~ .btn {
+.section-slider .carousel-caption > .btn ~ .btn, .section-special-offer-adv .special-offer .border .product-info > .btn, .section-special-offer-adv .advertisement .border .product-info > .btn {
   color: #99c873;
   background-color: transparent;
 }
@@ -95,6 +96,98 @@ body {
   margin-bottom: 25px;
 }
 
+.section-main-content .products-container .product, .section-new-products .product {
+  padding: 0;
+  margin-right: 30px;
+  max-width: 230px;
+}
+.section-main-content .products-container .product img:first-child, .section-new-products .product img:first-child {
+  width: 100%;
+}
+.section-main-content .products-container .product a:hover, .section-new-products .product a:hover {
+  text-decoration: none;
+}
+.section-main-content .products-container .product a:hover .product-name, .section-new-products .product a:hover .product-name {
+  color: #325f70;
+  text-decoration: none;
+}
+.section-main-content .products-container .product .main-background, .section-new-products .product .main-background {
+  position: relative;
+  bottom: 80px;
+  left: 1px;
+  font-size: 70px;
+  opacity: 0.5;
+  color: #424242;
+}
+.section-main-content .products-container .product .product-sale, .section-new-products .product .product-sale {
+  position: relative;
+  bottom: 130px;
+}
+.section-main-content .products-container .product .product-sale p, .section-new-products .product .product-sale p {
+  color: #ffffff;
+  position: relative;
+}
+.section-main-content .products-container .product .product-sale .promotion-price-background, .section-new-products .product .product-sale .promotion-price-background {
+  bottom: -98px;
+  left: -98px;
+  font-size: 50px;
+  color: #d52b2b;
+}
+.section-main-content .products-container .product .product-sale .promotion-price-background .price, .section-new-products .product .product-sale .promotion-price-background .price {
+  font-size: 14.83px;
+  bottom: 38px;
+  left: 0px;
+  z-index: 9;
+}
+.section-main-content .products-container .product .product-sale .promotion-price-background .currency, .section-new-products .product .product-sale .promotion-price-background .currency {
+  font-size: 12.98px;
+  bottom: 48px;
+  left: 0;
+  z-index: 9;
+}
+.section-main-content .products-container .product .product-sale .shipping-background, .section-new-products .product .product-sale .shipping-background {
+  bottom: -95px;
+  left: -58px;
+  font-size: 50px;
+  color: #ff9000;
+}
+.section-main-content .products-container .product .product-sale .shipping-background p:first-child, .section-new-products .product .product-sale .shipping-background p:first-child {
+  font-family: fontDisplayBold;
+  font-size: 14.83px;
+  bottom: 37px;
+  left: 0px;
+}
+.section-main-content .products-container .product .product-sale .shipping-background p:last-child, .section-new-products .product .product-sale .shipping-background p:last-child {
+  font-size: 9px;
+  bottom: 48px;
+  left: 0;
+}
+.section-main-content .products-container .product .product-sale .new-status-background, .section-new-products .product .product-sale .new-status-background {
+  bottom: -72px;
+  left: -87px;
+  font-size: 50px;
+  color: #ffd800;
+}
+.section-main-content .products-container .product .product-sale .new-status-background p, .section-new-products .product .product-sale .new-status-background p {
+  font-family: fontDisplayBold;
+  font-size: 12px;
+  bottom: 30px;
+  left: 0;
+}
+.section-main-content .products-container .product .product-information, .section-new-products .product .product-information {
+  position: relative;
+  top: -65px;
+  font-size: 14px;
+}
+.section-main-content .products-container .product .product-information .product-name, .section-new-products .product .product-information .product-name {
+  color: #1e2934;
+  letter-spacing: -0.9px;
+}
+.section-main-content .products-container .product .product-information .product-status, .section-new-products .product .product-information .product-status {
+  color: #627b92;
+  padding-left: 6px;
+}
+
 .section-main-content {
   padding: 30px 0 0 0;
   background-color: #e9f4ff;
@@ -130,77 +223,7 @@ body {
   margin: 0;
 }
 .section-main-content .products-container .product {
-  padding: 0;
-  margin-right: 30px;
   margin-bottom: -45px;
-  max-width: 230px;
-}
-.section-main-content .products-container .product img:first-child {
-  width: 100%;
-}
-.section-main-content .products-container .product .main-background {
-  position: relative;
-  bottom: 80px;
-  left: 1px;
-  font-size: 70px;
-  opacity: 0.5;
-  color: #424242;
-}
-.section-main-content .products-container .product .product-sale {
-  position: relative;
-  bottom: 130px;
-}
-.section-main-content .products-container .product .product-sale p {
-  color: #ffffff;
-  position: relative;
-}
-.section-main-content .products-container .product .product-sale .promotion-price-background {
-  bottom: -98px;
-  left: -98px;
-  font-size: 50px;
-  color: #d52b2b;
-}
-.section-main-content .products-container .product .product-sale .promotion-price-background .price {
-  font-size: 14.83px;
-  bottom: 38px;
-  left: 0px;
-  z-index: 9;
-}
-.section-main-content .products-container .product .product-sale .promotion-price-background .currency {
-  font-size: 12.98px;
-  bottom: 48px;
-  left: 0px;
-  z-index: 9;
-}
-.section-main-content .products-container .product .product-sale .shipping-background {
-  bottom: -95px;
-  left: -58px;
-  font-size: 50px;
-  color: #ff9000;
-}
-.section-main-content .products-container .product .product-sale .shipping-background p:first-child {
-  font-family: fontDisplayBold;
-  font-size: 14.83px;
-  bottom: 37px;
-  left: 0px;
-}
-.section-main-content .products-container .product .product-sale .shipping-background p:last-child {
-  font-size: 9px;
-  bottom: 48px;
-  left: 0px;
-}
-.section-main-content .products-container .product .product-information {
-  position: relative;
-  top: -65px;
-  font-size: 14px;
-}
-.section-main-content .products-container .product .product-information .product-name {
-  color: #1e2934;
-  letter-spacing: -0.9px;
-}
-.section-main-content .products-container .product .product-information .product-status {
-  color: #627b92;
-  padding-left: 6px;
 }
 .section-main-content .more-products-container {
   width: 150px;
@@ -208,7 +231,72 @@ body {
   margin-bottom: 30px;
 }
 .section-main-content .more-products-container .btn {
+  position: relative;
   margin-left: -15px;
+}
+
+.section-new-products {
+  padding: 30px 0 0 0;
+  background-color: #faffff;
+}
+.section-new-products h3 {
+  margin: 0;
+}
+.section-new-products .product {
+  margin-top: 15px;
+}
+
+.section-special-offer-adv .special-offer .border, .section-special-offer-adv .advertisement .border {
+  border: 1px solid #dddddd;
+  position: relative;
+}
+.section-special-offer-adv .special-offer .border img, .section-special-offer-adv .advertisement .border img {
+  margin-bottom: 30px;
+}
+.section-special-offer-adv .special-offer .border .product-info, .section-special-offer-adv .advertisement .border .product-info {
+  padding-top: 30px;
+  font-family: fontDisplayBold;
+  position: absolute;
+  top: 0;
+  right: 45px;
+}
+.section-special-offer-adv .special-offer .border .product-info .old-price, .section-special-offer-adv .advertisement .border .product-info .old-price {
+  font-size: 20.94px;
+  color: #cd1919;
+  margin: 0;
+}
+.section-special-offer-adv .special-offer .border .product-info .new-price, .section-special-offer-adv .advertisement .border .product-info .new-price {
+  font-size: 30px;
+  color: #99c873;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.section-special-offer-adv .special-offer .border .product-info > .btn, .section-special-offer-adv .advertisement .border .product-info > .btn {
+  padding: 8px 23px;
+}
+.section-special-offer-adv .special-offer .border .product-info > .btn ~ .btn, .section-special-offer-adv .advertisement .border .product-info > .btn ~ .btn {
+  margin-top: 5px;
+  padding: 8px 26px;
+}
+
+.section-special-offer-adv {
+  background-color: #faffff;
+}
+.section-special-offer-adv .title {
+  padding-left: 0;
+}
+.section-special-offer-adv .special-offer {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.section-special-offer-adv .advertisement {
+  padding-left: 0;
+  padding-right: 30px;
+}
+.section-special-offer-adv .advertisement .border .adv-content {
+  background-color: #f6f6f6;
+  color: #627b92;
+  font-size: 14px;
 }
 
 /* LAYOUTS - Page layout styles*/
