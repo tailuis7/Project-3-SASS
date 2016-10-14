@@ -33,39 +33,18 @@
      * Fix main content
      */
     .section-main-content {
-        /* .products-container {
+        .products-container {
             .product {
-                margin-right: 25px;
                 .product-sale {
                     .promotion-price-background {
-                        bottom: 8px;
-                        left: -43%;
-                        .price {
-                            bottom: 14px;
-                            left: 43%;
-                        }
-                        .currency {
-                            bottom: 1px;
-                            left: 44.3%;
-                        }
+                        left: -42%;
                     }
                     .shipping-background {
-                        bottom: 8px;
-                        left: -26%;
-                        p {
-                            &:first-child {
-                                bottom: 14px;
-                                left: 43%;
-                            }
-                            &:last-child {
-                                bottom: 4px;
-                                left: 41%;
-                            }
-                        }
+                        left: -23%;
                     }
                 }
             }
-        } */
+        }
     }
 }
 
@@ -106,39 +85,44 @@
      * Fix main content
      */
     .section-main-content {
-        /* .products-container {
+        .products-container {
             .product {
-                margin-right: 25px;
                 .product-sale {
                     .promotion-price-background {
-                        bottom: 8px;
-                        left: -43%;
-                        .price {
-                            bottom: 14px;
-                            left: 42%;
-                        }
-                        .currency {
-                            bottom: 1px;
-                            left: 44.3%;
-                        }
+                        left: -38%;
                     }
                     .shipping-background {
-                        bottom: 8px;
-                        left: -26%;
-                        p {
-                            &:first-child {
-                                bottom: 14px;
-                                left: 43%;
-                            }
-                            &:last-child {
-                                bottom: 4px;
-                                left: 41%;
-                            }
-                        }
+                        left: -12%;
                     }
                 }
             }
-        } */
+        }
+    }
+    /***
+     * Fix new products
+     */
+    .section-new-products {
+        .product .product-sale {
+            .new-status-background {
+                left: -40%;
+            }
+        }
+    }
+    /***
+     * Fix Special Offer - Adv
+     */
+    .section-special-offer-adv {
+        .special-offer {
+            .border {
+                .product-info {
+                    padding-top: 0;
+                    right: 5%;
+                    .new-price {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -252,42 +236,32 @@
         }
         .products-container {
             margin-left: -15px;
-            /* .product {
-                margin: 0 9%;
-                width: 32%;
-                float: left;
+            .product {
+                /* margin-left: 10%;
+                max-width: 35%;
+                float: left; */
                 .product-sale {
                     .promotion-price-background {
-                        bottom: 8px;
-                        left: -42%;
-                        .price {
-                            bottom: 14px;
-                            left: 42%;
-                        }
-                        .currency {
-                            bottom: 1px;
-                            left: 44.3%;
-                        }
+                        left: -43%;
                     }
                     .shipping-background {
-                        bottom: 8px;
-                        left: -23%;
-                        p {
-                            &:first-child {
-                                bottom: 14px;
-                                left: 42%;
-                            }
-                            &:last-child {
-                                bottom: 4px;
-                                left: 41%;
-                            }
-                        }
+                        left: -27%;
                     }
                 }
-            } */
+            }
         }
         .more-products-container {
             padding-left: 15px;
+        }
+    }
+    /***
+     * Fix new products
+     */
+    .section-new-products {
+        .product .product-sale {
+            .new-status-background {
+                left: -40%;
+            }
         }
     }
 }
@@ -389,46 +363,46 @@
                 }
             }
         }
-        /* .products-container {
+        .products-container {
+            margin-left: -15px;
             .product {
-                margin: 0 22%;
                 .product-sale {
                     .promotion-price-background {
-                        bottom: 35px;
-                        left: -45%;
-                        .price {
-                            font-size: 9.83px;
-                            bottom: 14px;
-                            left: 45%;
-                        }
-                        .currency {
-                            font-size: 8.98px;
-                            bottom: 1px;
-                            left: 46.3%;
-                        }
+                        left: -39%;
                     }
                     .shipping-background {
-                        bottom: -8px;
-                        left: -45%;
-                        p {
-                            &:first-child {
-                                font-size: 9.83px;
-                                bottom: 14px;
-                                left: 45%;
-                            }
-                            &:last-child {
-                                font-size: 8px;
-                                bottom: 4px;
-                                left: 42%;
-                            }
-                        }
+                        left: -12%;
                     }
                 }
             }
-        } */
+        }
         .more-products-container {
-            .btn {
-                margin-left: 0;
+            padding-left: 15px;
+        }
+    }
+    /***
+     * Fix new products
+     */
+    .section-new-products {
+        .product .product-sale {
+            .new-status-background {
+                left: -40%;
+            }
+        }
+    }
+    /***
+     * Fix Special Offer - Adv
+     */
+    .section-special-offer-adv {
+        .special-offer {
+            .border {
+                .product-info {
+                    padding-top: 0;
+                    right: 5%;
+                    .new-price {
+                        margin-bottom: 0;
+                    }
+                }
             }
         }
     }
