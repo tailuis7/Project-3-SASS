@@ -33,10 +33,10 @@
      * Fix main content
      */
     .section-main-content {
-        .products-container {
+        /* .products-container {
             .product {
                 margin-right: 25px;
-                /* .product-sale {
+                .product-sale {
                     .promotion-price-background {
                         bottom: 8px;
                         left: -43%;
@@ -63,9 +63,9 @@
                             }
                         }
                     }
-                } */
+                }
             }
-        }
+        } */
     }
 }
 
@@ -106,10 +106,10 @@
      * Fix main content
      */
     .section-main-content {
-        .products-container {
+        /* .products-container {
             .product {
                 margin-right: 25px;
-                /* .product-sale {
+                .product-sale {
                     .promotion-price-background {
                         bottom: 8px;
                         left: -43%;
@@ -136,9 +136,9 @@
                             }
                         }
                     }
-                } */
+                }
             }
-        }
+        } */
     }
 }
 
@@ -251,11 +251,12 @@
             }
         }
         .products-container {
-            .product {
+            margin-left: -15px;
+            /* .product {
                 margin: 0 9%;
                 width: 32%;
                 float: left;
-                /* .product-sale {
+                .product-sale {
                     .promotion-price-background {
                         bottom: 8px;
                         left: -42%;
@@ -282,13 +283,11 @@
                             }
                         }
                     }
-                } */
-            }
+                }
+            } */
         }
         .more-products-container {
-            .btn {
-                margin-left: 0;
-            }
+            padding-left: 15px;
         }
     }
 }
@@ -390,10 +389,10 @@
                 }
             }
         }
-        .products-container {
+        /* .products-container {
             .product {
                 margin: 0 22%;
-                /* .product-sale {
+                .product-sale {
                     .promotion-price-background {
                         bottom: 35px;
                         left: -45%;
@@ -424,9 +423,9 @@
                             }
                         }
                     }
-                } */
+                }
             }
-        }
+        } */
         .more-products-container {
             .btn {
                 margin-left: 0;
