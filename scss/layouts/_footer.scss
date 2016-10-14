@@ -1,0 +1,43 @@
+/* Footer */
+
+footer {
+    margin: 55px 0;
+    .left-list {
+        float: left;
+        padding-left: 10px;
+        font-size: 14px;
+        .copyright {
+            color: $secondary-color;
+        }
+        a {
+            color: #648b99;
+        }
+    }
+    .right-list {
+        float: right;
+        font-size: 25px;
+        padding-left: 10px;
+        padding-right: 15px;
+        a {
+            text-align: center;
+            line-height: 10px;
+            i {
+                width: 38px;
+                height: 38px;
+                line-height: 38px;
+            }
+            .social-twitter {
+                color: #00bbf5;
+                border: 2px solid #00bbf5;
+            }
+            .social-facebook {
+                color: #3b5999;
+                border: 2px solid #3b5999;
+            }
+            .social-youtube {
+                color: #fe0000;
+                border: 2px solid #fe0000;
+            }
+        }
+    }
+}

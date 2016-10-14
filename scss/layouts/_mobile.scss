@@ -106,6 +106,9 @@
             .new-status-background {
                 left: -40%;
             }
+            .product-status {
+                left: 0;
+            }
         }
     }
     /***
@@ -262,6 +265,9 @@
             .new-status-background {
                 left: -40%;
             }
+            .product-status {
+                left: 5%;
+            }
         }
     }
     /***
@@ -402,6 +408,9 @@
             .product-sale {
                 .new-status-background {
                     left: -40%;
+                }
+                .product-status {
+                    left: 0;
                 }
             }
         }
