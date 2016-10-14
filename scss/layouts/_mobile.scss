@@ -264,6 +264,18 @@
             }
         }
     }
+    /***
+     * Fix float footer
+     */
+    footer {
+        .left-list {
+            float: none;
+        }
+        .right-list {
+            margin-top: 15px;
+            float: none;
+        }
+    }
 }
 
 
@@ -366,6 +378,7 @@
         .products-container {
             margin-left: -15px;
             .product {
+                padding-right: 17px;
                 .product-sale {
                     .promotion-price-background {
                         left: -39%;
@@ -384,9 +397,12 @@
      * Fix new products
      */
     .section-new-products {
-        .product .product-sale {
-            .new-status-background {
-                left: -40%;
+        .product {
+            padding-right: 17px;
+            .product-sale {
+                .new-status-background {
+                    left: -40%;
+                }
             }
         }
     }
@@ -399,11 +415,27 @@
                 .product-info {
                     padding-top: 0;
                     right: 5%;
+                    .old-price {
+                        font-size: 16.94px;
+                    }
                     .new-price {
+                        font-size: 22px;
                         margin-bottom: 0;
                     }
                 }
             }
+        }
+    }
+    /***
+     * Fix float footer
+     */
+    footer {
+        .left-list {
+            float: none;
+        }
+        .right-list {
+            margin-top: 15px;
+            float: none;
         }
     }
 }

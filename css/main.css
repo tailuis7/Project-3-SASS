@@ -189,7 +189,7 @@ body {
 }
 
 .section-main-content {
-  padding: 30px 0 0 0;
+  padding-top: 30px;
   background-color: #e9f4ff;
 }
 .section-main-content .col-md-9 {
@@ -206,7 +206,7 @@ body {
   margin-bottom: 15px;
 }
 .section-main-content ul li:hover {
-  width: 52%;
+  width: 80%;
   padding: 5px 8px;
   background-color: #6397aa;
   cursor: pointer;
@@ -300,6 +300,55 @@ body {
   background-color: #f6f6f6;
   color: #627b92;
   font-size: 14px;
+}
+
+.section-companies {
+  background-color: #faffff;
+}
+.section-companies .row {
+  margin-top: 70px;
+}
+
+footer {
+  margin: 55px 0;
+}
+footer .left-list {
+  float: left;
+  padding-left: 10px;
+  font-size: 14px;
+}
+footer .left-list .copyright {
+  color: #325f70;
+}
+footer .left-list a {
+  color: #648b99;
+}
+footer .right-list {
+  float: right;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+footer .right-list a {
+  text-align: center;
+  line-height: 10px;
+}
+footer .right-list a i {
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+}
+footer .right-list a .social-twitter {
+  color: #00bbf5;
+  border: 2px solid #00bbf5;
+}
+footer .right-list a .social-facebook {
+  color: #3b5999;
+  border: 2px solid #3b5999;
+}
+footer .right-list a .social-youtube {
+  color: #fe0000;
+  border: 2px solid #fe0000;
 }
 
 /* LAYOUTS - Page layout styles*/
@@ -629,6 +678,17 @@ header .container .quick-search i {
   .section-new-products .product .product-sale .new-status-background {
     left: -40%;
   }
+
+  /***
+   * Fix float footer
+   */
+  footer .left-list {
+    float: none;
+  }
+  footer .right-list {
+    margin-top: 15px;
+    float: none;
+  }
 }
 /*  #Mobile (Portrait) 320px
 ---------------------------------------------------------------------------------------------------------------*/
@@ -719,6 +779,9 @@ header .container .quick-search i {
   .section-main-content .products-container {
     margin-left: -15px;
   }
+  .section-main-content .products-container .product {
+    padding-right: 17px;
+  }
   .section-main-content .products-container .product .product-sale .promotion-price-background {
     left: -39%;
   }
@@ -732,6 +795,9 @@ header .container .quick-search i {
   /***
    * Fix new products
    */
+  .section-new-products .product {
+    padding-right: 17px;
+  }
   .section-new-products .product .product-sale .new-status-background {
     left: -40%;
   }
@@ -743,8 +809,23 @@ header .container .quick-search i {
     padding-top: 0;
     right: 5%;
   }
+  .section-special-offer-adv .special-offer .border .product-info .old-price {
+    font-size: 16.94px;
+  }
   .section-special-offer-adv .special-offer .border .product-info .new-price {
+    font-size: 22px;
     margin-bottom: 0;
+  }
+
+  /***
+   * Fix float footer
+   */
+  footer .left-list {
+    float: none;
+  }
+  footer .right-list {
+    margin-top: 15px;
+    float: none;
   }
 }
 
